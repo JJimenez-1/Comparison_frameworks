@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="styles/band.css">
+    <link rel="stylesheet" href="css/band/band.css">
     <title>Band page</title>
 </head>
 
 <body>
-
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row cabecera">
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="band.html">Band</a>
+                <a class="mdl-navigation__link" href="band.html">Video</a>
+            </nav>
+        </div>
+    </header>
     <div class="mdl-grid">
 
         <div class="mdl-cell mdl-cell--4-col">
@@ -21,7 +30,7 @@
                     <p>John</p>
                 </div>
                 <div class="mdl-card__media">
-                    <img src="img/castillo.jpeg" width="100%" height="400" alt="castillo" />
+                    <img src="../img/castillo.jpeg" width="100%" height="400" alt="castillo" />
                 </div>
                 <div class="mdl-card__supporting-text">
                     <p>John is the smartest</p>
@@ -35,7 +44,7 @@
                     <p>Paul</p>
                 </div>
                 <div class="mdl-card__media">
-                    <img src="img/elefante.jpeg" width="100%" height="400" alt="castillo" />
+                    <img src="../img/elefante.jpeg" width="100%" height="400" alt="castillo" />
                 </div>
                 <div class="mdl-card__supporting-text">
                     <p>Paul is the prettiest</p>
@@ -49,7 +58,7 @@
                     <p>Ringo</p>
                 </div>
                 <div class="mdl-card__media">
-                    <img src="img/surf.jpeg" width="100%" height="400" alt="castillo" />
+                    <img src="../img/surf.jpeg" width="100%" height="400" alt="castillo" />
                 </div>
                 <div class="mdl-card__supporting-text">
                     <p>Ringo is the funniest</p>
@@ -58,6 +67,29 @@
         </div>
 
     </div>
+    <div class="mdl-mini-footer footer">
+        <div>
+            <span class="material-icons">
+                facebook
+            </span>
+            <span class="material-icons">
+                group
+            </span>
+            <span class="material-icons">
+                party_mode
+            </span>
+            <span class="material-icons">
+                whatshot
+            </span>
+            <span class="material-icons">
+                share
+            </span>
+        </div>
+        <div>
+            <p><a href="index.html">Copyright 2020 Jose Jimenez/ Jose Maria Ramos</a></p>
+        </div>
+    </div>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
 
 </body>
 

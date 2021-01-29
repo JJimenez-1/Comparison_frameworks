@@ -1,0 +1,29 @@
+header {
+    background-color: black !important;
+}
+
+.cabecera{
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black !important;
+    margin-top: 30px;
+}
+
+.mdl-cell {
+    display: flex;
+    justify-content: center;
+}
+
+.mdl-card__title {
+    justify-content: center;
+}
+
+.mdl-card__supporting-text {
+    text-align: center;
+}
