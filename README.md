@@ -1,4 +1,5 @@
-- Link to the documentation: https://docs.google.com/presentation/d/16r8JCxvaqCs565W52OkidiG4J12y8cAjqEsYNXXBxUw/edit?usp=
+[Link to the documentation](https://docs.google.com/presentation/d/16r8JCxvaqCs565W52OkidiG4J12y8cAjqEsYNXXBxUw/edit?usp=)
+[Documentación de Material Design Lite](https://getmdl.io/)
 
 # Material Design 
 Material is a design system created by Google to help teams build high-quality digital experiences for Android, iOS, Flutter, and the web. 
@@ -11,4 +12,3 @@ Material Design is inspired by the physical world and its textures, including ho
 - Main features: Responsiveness, Grid System, theming, integration with other tools/frameworks ....
 - Performance
 - Integration with front frameworks (vue.js, react.js, angular.js, etc) 
-[Documentación de Material Design Lite](https://getmdl.io/)
