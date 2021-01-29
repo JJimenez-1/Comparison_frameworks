@@ -5,7 +5,28 @@ header {
 .cabecera{
     padding: 0;
 }
-footer {
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: black !important;
     margin-top: 30px;
+}
+
+.text {
+    text-align: center;
+}
+.text h1 {
+    font-size: 30px;
+}
+
+.text h2 {
+    font-size: 15px;
+}
+
+.text p {
+    font-size: 15px;
+    text-align: justify;
 }
